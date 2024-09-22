@@ -178,7 +178,7 @@ nav input:checked~.toggle .toggle-bar:nth-child(2) {
    background-position: center;
    background-size: cover;
 
-   height: 70vh;
+   height: 90vh;
    text-align: center;
    display: flex;
    flex-direction: column;
@@ -203,6 +203,9 @@ h1, p, button{
 h1{
     font-size: 40px;
     transform: scaleY(1.5);
+}
+p{
+    max-width: 60rem;
 }
 button{
     width: fit-content;
